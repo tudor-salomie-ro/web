@@ -1,0 +1,25 @@
+<h1> Curriculum Vitae </h1>
+
+<a href="http://ch.linkedin.com/in/tudorsalomie" onclick="return ! window.open(this.href);">
+<img src="http://www.linkedin.com/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0" style="display:block; margin:0 auto; text-align:center;" alt="View Tudor Salomie's profile on LinkedIn">
+</a>
+
+<div id="education">
+<h3> Education: </h3>
+<ul>
+  <li> <span>2008 - present </span>: PhD candidate, ETH Zurich, <a href="http://systems.ethz.ch/" onclick="return ! window.open(this.href);">Systems Group</a></li>
+  <li> <span>2003 - 2008    </span>: Diploma Engineer, <a href="http://www.utcluj.ro/english/" onclick="return ! window.open(this.href);">Technical University of Cluj-Napoca</a></li>
+  <li> <span>2008           </span>: Diploma Project, ETH Zurich, <a href="http://www.globis.ethz.ch/" onclick="return ! window.open(this.href);">Global Information Systems Group</a></li>
+</div>
+
+
+<div id="work">
+<h3> Work experience: </h3>
+<ul>
+  <li> <span>2008 - present </span>: <a href="http://www.ethz.ch/" onclick="return ! window.open(this.href);">ETH Zurich</a> as Research Assistant</li>
+  <li> <span>2011 - 2012    </span>: <a href="http://aws.amazon.com/" onclick="return ! window.open(this.href);">Amazon Web Services</a>, Seattle WA as SDE Intern (<a href="http://aws.amazon.com/dynamodb/" onclick="return ! window.open(this.href);">DynamoDB</a>)</li>
+  <li> <span>2007 - 2008    </span>: Technical Univeristy of Cluj-Napoca as Research Assistant</li>
+  <li> <span>2006           </span>: <a href="http://www.microsoft.com/" onclick="return ! window.open(this.href);">Microsoft Corp</a>, Redmond WA as SDE Intern </li>
+  <li> <span>2005           </span>: <a href="http://www.microsoft.com/" onclick="return ! window.open(this.href);">Microsoft Corp</a>, Redmond WA as SDE Intern </li>
+</div>
+

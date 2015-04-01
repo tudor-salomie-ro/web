@@ -1,0 +1,29 @@
+<h1> Pre </h1>
+
+<div id="about">
+	<div>
+		<img src="res/me.jpg" width=30% style="float:right;margin:15px;">
+	</div>
+	<p>
+	IT enthusiast, pursuing my PhD in Computer Science in the Systems Group 
+	at ETH Zurich, redditor, enjoying basketball, climbing and snowboarding.
+	</p> 
+
+	<p>
+	I am Romanian, born and raised in the beautiful city of 
+        <a href="http://en.wikipedia.org/wiki/Cluj-Napoca" onclick="return ! window.open(this.href);">Cluj-Napoca</a>. 
+	I graduated from the Technical University of Cluj-Napoca in 2008. Afterwards I 
+	moved to Zurich, Switzerland (my current place of residence).
+	</p> 
+
+        <p>
+        I (try to) avoid the daily routine of staying in a chair at my desk by
+        snowboarding in the winter, hiking in the summer, getting an adrenalie rush
+        from rock climbing, or filling up memory cards with my Pentax K10.
+        </p>
+
+	<p>
+	I also used to have a blog, at this domain, which I no longer update. A list of all the 
+	articles that I wrote is <a href="http://salomie.ro/tudor/blog.html"> here </a> (with links to those articles).
+	</p>
+</div>

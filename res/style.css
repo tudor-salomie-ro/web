@@ -1,0 +1,107 @@
+body { 
+  /*background-image:url('bgbody.png'); */
+  background: #00070b;
+  background-image: url("bg1.jpeg"), url("bg2.jpeg");
+  background-repeat: repeat-x, repeat;
+}
+
+.control {
+  position:absolute;
+  top:10%; 
+  width:50%; height:80%;
+  vertical-align:middle;
+  font-family: 'Signika', sans-serif; font-weight: 400; font-size: 120%;
+  color: white;
+  background-image:url('bg.png');
+}
+
+.logo {
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  top:50px; left:0px; 
+  width:70%; height:10%;
+  text-align:center;
+}
+
+.navigation {
+  position:relative;
+  top:100px; left:0px; 
+  width:70%; height:40%;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:left;
+}
+
+.buttons {
+  position:relative;
+  top:30px; left:0px;
+  width:250px; height:10%;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  vertical-align:middle;
+  border-radius: 5px 10px 5px 10px / 10px 5px 10px 5px;
+  border: 0px solid gray;
+}
+
+.buttons img {
+  top:50%;
+  vertical-align:middle;
+  width:25px;
+/*  margin: 20px;
+  border: 5px solid #eee;*/
+  -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+  -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.buttons img:hover {
+  -webkit-transform: rotate(-12deg);
+  -moz-transform: rotate(-12deg);
+  -o-transform: rotate(-12deg);
+}
+
+.loading {
+  position:absolute;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  top:0px;
+  width:100%;
+}
+
+.main {
+  position:absolute;
+  top:10%; left:50%;
+  width:50%; height:80%;
+  background-image:url('bg.png');
+  color:white;
+}
+
+.content {
+  margin-left:10px;
+  margin-right:10px;
+  position:relative;
+  top:0px; left:0px; 
+  height:100%; 
+  font-family: 'Signika', sans-serif; font-weight: 400; font-size: 100%;
+  overflow-y:auto;overflow-x:hidden;
+}
+
+.ul-nav {
+  list-style-type:none; padding-left:20%; margin-left:0px; margin-right:auto; position:absolute; top:0px; left:0px;
+}
+
+ul { list-style-type:none; padding-left:0px; }
+ul li span { float:left; width:100px; }
+div { /*border:2px solid green;*/ }
+h1 { text-align:center; margin-top:50px;}
+a:link { text-decoration: none; color:white; }
+a:visited { text-decoration: none; color:white; }
+a:active { text-decoration: none; }
+a:hover { text-decoration: none; color:#2c84e8; }
+

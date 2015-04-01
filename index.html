@@ -1,1 +1,111 @@
-Coming soon
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Personal website, Tudor-Ioan Salomie </title>
+    <meta name="description" content="Personal website of Tudor-Ioan Salomie. Short biography, Curriculum Vitae, Resume, Work Experience and Photography" />
+    <meta name="keywords" content="Salomie, Tudor, Tudor-Ioan, PhD, Performance Analysis, Multicore, Systems, Virtualization, Application ballooning, System performance, benchmarking, databases, scalability, MySQL, Oracle, PostgreSQL, distributed systems, distributed data" />
+    <meta name="author" content="Tudor-Ioan Salomie" />
+    <meta name="copyright" content="Tudor-Ioan Salomie" />
+    <meta name="fragment" content="!">
+
+    <script src="res/jquery.min.js"> </script>
+    <script src="res/jquery.address-1.4.min.js"> </script>
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+
+    <script>
+      function updateContent(requrl) {
+        animation = true;
+        if (requrl=="/" || requrl=="#!" || requrl=="/#!") {
+	  requrl="/#!main";
+	}
+	requrl = requrl.replace("#!","").replace("%23!","").replace("%23","");
+        $.ajax({
+          type:"GET",
+          url:'/data/'+requrl,
+          dataType:'text',
+          success:function(data, reqstatus, jq) {
+            if(animation) {
+              $('#content').hide("blind", {}, 500);
+              setTimeout(function(){ $('#content').html(data);}, 500);
+              $('#content').show("blind", {}, 500);
+            } else {
+              $('#content').html(data);
+            }
+          },
+          error:function() {
+            $('#content').html("<h1> Ooops </h1> <p> Something went wrong or you tried to access an inexisting resource ... </p>");
+          }
+        });
+      }
+      $.address.crawlable(true).state('/').init(
+      function(){$('a:not([href^="http://"]):not([href^="https://"])').address();}).change(function(e){
+	requrl = ('/'+encodeURIComponent(e.value.toLowerCase().substr(1)));
+	if (requrl.indexOf("_escaped_fragment_") == -1) updateContent(requrl);
+      });
+    </script>
+    <link rel="stylesheet" href="res/style.css" type="text/css" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Signika" type="text/css" />
+
+    <!-- BEGIN: Google Analytics Tracker -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-32631228-1']);
+      _gaq.push(['_setDomainName', 'salomie.ro']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <!-- END: Google Analytics Tracker -->
+  </head>
+
+  <body itemscope itemtype="http://schema.org/WebPage" id=0>
+    <div id="control" class="control">
+      <div id="logo" class="logo"> 
+        <h1> <a href="/" id="header-image"> Tudor-Ioan Salomie </a>  </h1>
+      </div>
+      <div id="navigation-div" class="navigation">
+        <nav id="navigation-nav">
+          <ul class="ul-nav">
+            <li> <a href="/#!about"> About me </a> </li>
+            <li> <a href="/#!cv"> Curriculum Vitae </a> </li>
+            <li> <a href="/#!photography"> Photography </a> </li>
+            <li> <a href="/#!work"> Work </a> </li>
+            <li> <a href="/#!contact"> Contact </a> </li>
+          </ul>
+        </nav>
+      </div>
+      <br/>  
+      <div id="buttons" class="buttons">
+        <a href="http://ch.linkedin.com/in/tudorsalomie" onclick="return ! window.open(this.href);">              <img src="res/linkedin.png" /></a>
+        <a href="https://plus.google.com/+TudorIoanSalomie/posts" onclick="return ! window.open(this.href);">     <img src="res/googleplus.png" /></a>
+        <a href="https://plus.google.com/+TudorIoanSalomie/photos" onclick="return ! window.open(this.href);">    <img src="res/camera.png" /></a>
+      </div>
+    </div>
+
+    <div id="main" class="main">
+      <div id="content" class="content">
+        <div id="loading" class="loading"> "Tudor-Ioan Salomie" </div>
+      </div>
+    </div>
+
+    <!-- start of StatCounter Code for Default Guide -->
+    <script type="text/javascript">
+      var sc_project=8029250; 
+      var sc_invisible=1; 
+      var sc_security="f3ba763c"; 
+    </script>
+    <script type="text/javascript" src="http://www.statcounter.com/counter/counter.js"></script>
+    <noscript>
+      <div class="statcounter">
+        <a title="joomla stats" href="http://statcounter.com/joomla/" target="_blank">
+          <img class="statcounter" src="http://c.statcounter.com/8029250/0/f3ba763c/1/" alt="joomla stats">
+        </a>
+      </div>
+    </noscript>
+    <!-- End of StatCounter Code for Default Guide -->
+  </body>
+</html>

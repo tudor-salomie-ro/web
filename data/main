@@ -1,0 +1,19 @@
+<div style="position:relative;top:40%;text-align:center;">
+<!--        <h2> Fact of the day:<br /> 22 years ago ... 13-15 June 1990 </h2>
+        <p>
+          Nu uitati ca acum 22 de ani, Iliescu a adus minerii in Bucuresti. Nu uitati ce au facut. Nu uitati ... <br /
+          <a href="http://mineriade.iiccr.ro/" onclick="return ! window.open(this.href);">
+            <img src="http://mineriade.iiccr.ro/images/gallery/leftbar/big/25.jpg">
+          </a><br />
+          <a onclick="return ! window.open(this.href);" href="http://ro.wikipedia.org/wiki/Mineriada_din_iunie_1990"> wikipedia </a>
+        </p>
+-->
+
+	<h2> Lex parsimoniae </h2>
+	<p>
+	  Among competing hypotheses one should select that which makes the fewest assumptions and thereby offers the simplest explanation of the effect. 
+          <a onclick="return ! window.open(this.href);" href="http://en.wikipedia.org/wiki/Occam's_razor"> wikipedia </a>
+	</p>
+
+
+</div>
