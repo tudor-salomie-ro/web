@@ -1,29 +1,26 @@
-<h1> Pre </h1>
+<h1> Preface </h1>
 
 <div id="about">
 	<div>
 		<img src="res/me.jpg" width=30% style="float:right;margin:15px;">
 	</div>
 	<p>
-	IT enthusiast, pursuing my PhD in Computer Science in the Systems Group 
-	at ETH Zurich, redditor, enjoying basketball, climbing and snowboarding.
+	Life enthusiast, enjoying basketball, climbing and snowboarding.
 	</p> 
 
 	<p>
 	I am Romanian, born and raised in the beautiful city of 
         <a href="http://en.wikipedia.org/wiki/Cluj-Napoca" onclick="return ! window.open(this.href);">Cluj-Napoca</a>. 
-	I graduated from the Technical University of Cluj-Napoca in 2008. Afterwards I 
-	moved to Zurich, Switzerland (my current place of residence).
+	I graduated from the Technical University of Cluj-Napoca in 2008, then got my PhD from ETH Zurich in 2014.
+	Since May 2014, I joing Google Zurich as a Software Engineer/SRE.
 	</p> 
 
         <p>
-        I (try to) avoid the daily routine of staying in a chair at my desk by
-        snowboarding in the winter, hiking in the summer, getting an adrenalie rush
-        from rock climbing, or filling up memory cards with my Pentax K10.
+        I (try to) avoid the daily routine by snowboarding in the winter, hiking in the summer, getting an adrenalie rush
+        from rock climbing, or developing b/w film.
         </p>
 
 	<p>
-	I also used to have a blog, at this domain, which I no longer update. A list of all the 
-	articles that I wrote is <a href="http://salomie.ro/tudor/blog.html"> here </a> (with links to those articles).
+	I also used to have a blog, but now I share my thoughts more privately.
 	</p>
 </div>
