@@ -1,1 +1,75 @@
+==================================================================
+https://keybase.io/tud
+--------------------------------------------------------------------
 
+I hereby claim:
+
+  * I am an admin of http://salomie.ro
+  * I am tud (https://keybase.io/tud) on keybase.
+  * I have a public key with fingerprint 0CD1 5027 85CF B111 A093  05A5 615F 0645 F3DA 19D6
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01202ecfc9f88a4989c5d674beadac48ef776663b550a4953a369f1ce380c29754340a",
+            "fingerprint": "0cd1502785cfb111a09305a5615f0645f3da19d6",
+            "host": "keybase.io",
+            "key_id": "615f0645f3da19d6",
+            "kid": "0101369987596aa182f07f302f8eefffa36171e990e8d9c30a8c970b9879bf03d4e80a",
+            "uid": "ec510340bccf030861e6a52ed8139119",
+            "username": "tud"
+        },
+        "service": {
+            "hostname": "salomie.ro",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1475919684,
+    "expire_in": 157680000,
+    "prev": "fac3555256f94c185ca3e1cc1647dd500f2c840901e18b4d51b0f93e1104587d",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.58
+Comment: https://keybase.io/crypto
+
+yMNlAnicbVJtUFRVGF4+wglIChSUmIBrJtbinLP3nvuxMQxlELMNwqoTiuZ2P85d
+7gC7l/2gRfBH4QjUCrJYP6xoBodsGMJJKIIwXUnyA5HJQiPJJkpZBuIHkmRTdC+j
+/zp/zpz3fZ7nPM877zePRRiiw3hbVO7CxPrxsMvBZq+heOnMSzWE4JSqCXMNUYZX
+LlwuYbfHVqZIhJkA0ARMWJRFTmZZnuJYTkQSzVAC5iVepFgsMwxN06SAENDaiORJ
+mpOhiEkWiCaOQRRJAZ4wErLisGOX6lIcHl1WlCACJoZFoixACHnAkQDxiIZIBjSF
+ZFLiISfRGrHU6dYZmjmBd+MtilOraQ/bir3/wT/0DaDmhGMZxNE8D1mTDBiZBCaZ
+xViWZc0mZCDmOIBZiRNJwLMixwBBI3CCDEiJwuyKb++KHBYRBFoSQRS1JmBpiGke
+mbDEQpKDkNOBbuxy8BVYQ3u8EnHASGiFKkXE+kz1EA+abr7cWaHgLS49iOpyepyi
+s1yrl3o8qlmneapVHfcGFmwPFGyC4pC0+WmEKuxyK04HYYYaUvQouiSktJCQo1nK
+SGCfqriwTdERiKFZoB39G1ylScq8SCKETIiWOUqE2vB5EkNRhDTFSBICQDaJLAU4
+ADFkBUpCUAAyp0EgoBDLSISeqdLhJMy0ZpO362kUu4P3eF2YOHAuuDfSEBZtiHok
+XN8rQ/Sjjz/ctj3X4patxczRFEthXuzSR/Yu29P//HT66l1L4yfb6sXomdu/TM6P
+lvf3DB4KWt7OqTv5Yps1pvVrtsmyQd1TPHjoW+LIh3m2pOtP7ZtvXrWYID3XXFBw
+uvR4viVY8vu2AKK/NPj6cjYe9m9/zfKpKYZPfcaI/WrEv89Oj+zomKGmyg7fHds+
+Ro4Tuzrrsgpmr/7M+M/3t27KnntFCDhK1i6NpE2f9fsnh2sqO5pS43LV/OzFzoqD
+u3c/2fLeXEfWKe7OjSQ5Y+GtlEuR63/84YWcK4H7idb3rblrqv4cSwt8vOpiZMbE
+tYakXl98Ahd/tmU5wpwxvGBesLa2943kr5v/omM8Nrgx0PWyb27fhdTQidFjs0ub
+0uOHUtyqYqu9UXPl871FlYHkUKgp/de/dwxm2QcKueDNfHGRv2PMaqlfd2+NKWt4
+c2dqcsNvcb4/gkVSSix7y5KJ1Ljwom4/MzsVanedX2zLBBM3j//V1pNX7634/mI/
+e7nbP8CnhIbIxJjWzScHolzPT76za1y9d7Bgw9zymSd8IZ86uDMtm+uKrLYN9s24
+fI2Jvdb0U9+198trOxJ3Vm6d+eoEXuyMNkat/iBY2XPp3e6jtdPekpkjw68e67VH
+hqb4moSGQm/v6qjMwP755LYLXedsn8W8/mZj7u06pfNWWPh+W7J/dOtQjD3dEbxf
+ez3wH/Jduxc=
+=JzhZ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tud
+
+==================================================================
